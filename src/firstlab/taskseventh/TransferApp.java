@@ -2,8 +2,8 @@ package firstlab.taskseventh;
 
 public class TransferApp {
     public static void main(String[] args) {
-        Bank bank1 = new Bank("Bank1");
-        Bank bank2 = new Bank("Bank2");
+        Bank bank1 = new Bank("PrivatBank");
+        Bank bank2 = new Bank("MonoBank");
 
         BankAccount account1 = new BankAccount("Ivan", "USD", 3999);
         BankAccount account2 = new BankAccount("Sasha", "EUR", 500);
